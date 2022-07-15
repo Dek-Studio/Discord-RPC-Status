@@ -4,13 +4,13 @@ client.on('ready', () => {
 client.request('SET_ACTIVITY', {
 pid: process.pid,
 activity : {
-details : "Wielofukcyjny Bot",
+details : "DETAILS",
 assets : {
-large_image : "logov3",
-large_text : "Xeno"
+large_image : "LARGE IMAGE",
+large_text : "LARGE TEXT"
 },
-buttons : [{label : "Pisz PV Po" , url : "https://discord.gg/c2gGMrSCNj"},{label : "Więcej Informacji",url : "https://discord.com/oauth2/authorize?client_id=841955168253771797&scope=bot&permissions=8589934591"}]
+buttons : [{label : "BUTTON 1" , url : "LINK 1"},{label : "BUTTON 2",url : "LINK 2"}]
 }
 })
 })
-client.login({ clientId : "841955168253771797" }).catch(console.error);
+client.login({ clientId : "CLIENT ID" }).catch(console.error);
